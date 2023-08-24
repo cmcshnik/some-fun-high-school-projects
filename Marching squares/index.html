@@ -1,0 +1,53 @@
+<!doctype html>
+
+<meta charset="utf8">
+
+<script src="main.js"></script>
+
+<canvas id="CANVAS"></canvas>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&family=Roboto&display=swap');
+    body{font-family: "Roboto";}
+    button{
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+    }
+</style>
+
+<div style="display: flex; align-items: center;">
+    <div>
+        <p>Радиус влияния</p>
+        
+        <input id="radius_vl" type="range" min="50" max="150" value="60" step="1">
+        <p id="radius_vl_display">60</p>
+        
+    </div>
+
+    <div style="margin: 25px;">
+        <button id="vl_minus">-</button>
+        <button id="vl_plus">+</button>
+    </div>
+
+    <div>
+        <p>Порог</p>
+        <input id="threshold" type="range" min="0.1" max="3.0" value="0.9" step="0.01">
+        <p id="threshold_display">0.9</p>
+    </div>
+
+    <div style="margin: 25px;">
+        <button id="threshold_minus">-</button>
+        <button id="threshold_plus">+</button>
+    </div>
+
+    <div style="margin: 25px;">
+        <input type="radio" id="default" name="radio" value="default" >
+        <label for="default">Обычный режим</label>
+
+        <br>
+
+        <input type="radio" id="advanced" name="radio" value="advanced">
+        <label for="default">Необычный режим</label>
+    </div>
+</div>
