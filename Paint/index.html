@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .round__color__button{
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+        border-radius: 50%;
+        transition: 200ms;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .round__color__button:hover{
+        transform: scale(1.19);
+    }
+    .round__size__button{
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+        border-radius: 50%;
+        transition: 200ms;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .round__size__button:hover{
+        transform: scale(1.19);
+    }
+    .brush__button{
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+        border-radius: 20%;
+        transition: 200ms;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 19px;
+    }
+    .brush__button:hover{
+        transform: scale(1.17);
+    }
+    #color{
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+        border-radius: 50%;
+        transition: 200ms;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-decoration: none;
+        
+    }
+    #color:hover{
+        transform: scale(1.17);
+    }
+    .color_cell{
+        width: 24px;
+        height: 24px;
+        border-style: solid;
+        border-width: 1px;
+        margin: 0;
+    }
+    .adding__color__button{
+        width: 40px;
+        height: 40px;
+        border-width: 3px;
+        border-radius: 20%;
+        transition: 200ms;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(images/plus.png);
+        margin-right: 19px;
+    }
+</style>
+<body>
+
+    <img id="BRUSH1" src="images/BRUSH.png" style="width: 10px; height: 10px; display: none;">
+    <img id="BRUSH2" src="images/brush2.png" style="width: 10px; height: 10px; display: none;">
+    <img id="BRUSH3" src="images/Line.png" style="width: 10px; height: 10px; display: none;">
+
+    <div style="display:flex; justify-content: center;">
+        <div style="display:flex; flex-direction: column; gap: 16px; margin-top: 90px; align-items: center">
+            <button id="default" class="brush__button" style="background-image: url(images/paintbrush-outline_icon-icons.com_73193.png);"></button>
+            <button id="line" class="brush__button" style="background-image: url(images/palochka_png.png);"></button>
+            <button id="kvadrat" class="brush__button" style="background-image: url(images/kvadrat.png);"></button>
+
+
+            
+
+            <div style="display: flex; flex-wrap: wrap; gap: 0px; width: 70px; height: 150px;">
+                <div id="0" class="color_cell" data-n="0" data-r="0" data-g="0" data-b="0"></div>
+                <div id="1" class="color_cell"></div>
+                <div id="2" class="color_cell"></div>
+                <div id="3" class="color_cell"></div>
+                <div id="4" class="color_cell"></div>
+                <div id="5" class="color_cell"></div>
+                <div id="6" class="color_cell"></div>
+                <div id="7" class="color_cell"></div>
+                <div id="8" class="color_cell"></div>
+                <div id="9" class="color_cell"></div>
+                <div id="10" class="color_cell"></div>
+                <div id="11" class="color_cell"></div> 
+            </div>
+
+            <div style="display:flex; flex-direction: column; gap: 16px; margin-top: 230px; align-items: center;">
+                <button id="BRUSH1_b" class="brush__button" style="background-image: url(images/kvadrat2.png);"></button>
+                <button id="BRUSH2_b" class="brush__button" style="background-image: url(images/medium.png);"></button>
+            </div>
+        </div>        
+
+        <div>
+            <div style="display: flex; max-width: 1300px; margin: 0 auto; justify-content: space-between;">
+                
+
+                <div style="display: flex; flex-wrap: wrap; margin: 15px; gap: 20px">
+                    <button class="round__color__button" id="white" style="background-color: #FFF;"></button>
+                    <button class="round__color__button" id="black" style="background-color: black;"></button>
+                    <button class="round__color__button" id="red" style="background-color: red;" onclick="selectColor(255, 0, 0)"></button>
+                    <button class="round__color__button" id="orange" style="background-color: #ffa500;"></button>
+                    <button class="round__color__button" id="yellow" style="background-color: rgb(255, 255, 0);"></button>
+                    <button class="round__color__button" id="green" style="background-color: rgb(0, 128, 0);"></button>
+                    <button class="round__color__button" id="blue" style="background-color: rgb(0, 0, 255);"></button>
+                    <button class="round__color__button" id="indigo" style="background-color: rgb(75, 0, 130);"></button>
+                    <button class="round__color__button" id="violet" style="background-color: rgb(238, 130, 238);"></button>
+                    <input type="color" id="color" style="background-image: url(images/rgb_circle.png );">
+                    <div id="adding_color" class="adding__color__button"></div>
+                </div>
+
+
+                <div style="display: flex; flex-wrap: wrap; margin: 15px; gap: 20px;">
+                    <button id="tiny_size" class="round__size__button" style="background-image: url(images/tiny.png);"></button>
+                    <button id="very_small_size" class="round__size__button" style="background-image: url(images/very_small.png);"></button>
+                    <button id="small_size" class="round__size__button" style="background-image: url(images/small.png);"></button>
+                    <button id="medium_size" class="round__size__button" style="background-image: url(images/medium.png);"></button>
+                    <button id="large_size" class="round__size__button" style="background-image: url(images/large.png);"></button>
+                    <button id="very_large_size" class="round__size__button" style="background-image: url(images/very_large.png);"></button>
+                </div>
+            </div>
+            
+            <div style="display: flex; justify-content: center;">
+
+                
+                <div id="cont" style="display: flex; justify-content: center; width: 1300;"></div>
+            </div>
+
+
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
