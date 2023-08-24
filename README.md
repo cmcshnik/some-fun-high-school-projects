@@ -3,21 +3,21 @@
 In this repo, I uploaded several small and medium-sized projects that I did for school and for myself. Hopefully, you will find something interesting here.
 
 [- JavaScript section](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#javascript-section)
-* [Paint]
-* [Hypnotoad]
-* [Marching squares]
-* [Clock]
+* [Paint](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#paint)
+* [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#hypnotoad)
+* [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#marching-squares)
+* [Clock](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#clock)
 
 ## JavaScript section 
 
-# Paint
+### Paint
 odjfojewf
 
-# Hypnotoad
+### Hypnotoad
 wepfwef
 
-# Marching squares
+### Marching squares
 wepfkwpeo
 
-# Clock
+### Clock
 ewqfijewfpiw
