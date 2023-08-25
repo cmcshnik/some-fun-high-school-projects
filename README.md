@@ -5,8 +5,10 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 [- JavaScript section](https://github.com/cmcshnik/some-fun-high-school-projects#javascript-section)
 * [Paint](https://github.com/cmcshnik/some-fun-high-school-projects#paint)
 * [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects#hypnotoad)
-* [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
 * [Clock](https://github.com/cmcshnik/some-fun-high-school-projects#clock)
+* [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
+[- Neural networks and Z3](https://github.com/cmcshnik/some-fun-high-school-projects#Neural-networks-and-Z3)
+
 
 ## JavaScript section 
 
@@ -28,4 +30,23 @@ Rendered using canvas 2D context and a pinch of math. [Link](https://cmcshnik.gi
 A visual demonstration of the work of an [algorithm](https://en.wikipedia.org/wiki/Marching_squares) popular in the field of computer graphics. Is a simplification of the [marching cubes](https://en.wikipedia.org/wiki/Marching_cubes) for the flat case. You can try "special mode", it's a little satisfying. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Marching%20squares/)
 
 ![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/5abb8034-918f-4a1b-9ca8-24ec5cb12225)
+
+
+
+
+
+
+
+
+
+
+
+
+### Euclidean algorithm
+Two integers a >= 0 and b >= 0 are supplied to the input via a space character. It is also guaranteed that b > a.
+Print all prime numbers between a (inclusive) and b (exclusive) in ascending order.
+
+
+
+
 
