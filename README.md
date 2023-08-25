@@ -2,11 +2,11 @@
 
 In this repo, I uploaded several small and medium-sized projects that I did for school and for myself. Hopefully, you will find something interesting here.
 
-[- JavaScript section](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#javascript-section)
-* [Paint](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#paint)
-* [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#hypnotoad)
+[- JavaScript section](https://github.com/cmcshnik/some-fun-high-school-projects#javascript-section)
+* [Paint](https://github.com/cmcshnik/some-fun-high-school-projects#paint)
+* [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects#hypnotoad)
 * [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
-* [Clock](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#clock)
+* [Clock](https://github.com/cmcshnik/some-fun-high-school-projects#clock)
 
 ## JavaScript section 
 
@@ -18,9 +18,8 @@ A hypnotoad with only one working hypnotic eye. The result of some experiments w
 
 ![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/bed09e3e-6ab6-45f3-8f66-df4faa29303a)
 
+### Clock
+Rendered using canvas 2D context and a pinch of math. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Clock/)
 
 ### Marching squares
-wepfkwpeo
-
-### Clock
-ewqfijewfpiw
+A visual demonstration of the work of an [algorithm](https://en.wikipedia.org/wiki/Marching_squares) popular in the field of computer graphics. Is a simplification of the [marching cubes](https://en.wikipedia.org/wiki/Marching_cubes) for the flat case. You can try "special mode", it's a little satisfying. 
