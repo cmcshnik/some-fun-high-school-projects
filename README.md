@@ -8,11 +8,13 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Clock](https://github.com/cmcshnik/some-fun-high-school-projects#clock)
 * [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
 * [Messenger with python server]()
+
 [- Neural networks and Z3](https://github.com/cmcshnik/some-fun-high-school-projects#Neural-networks-and-Z3)
 * [First neural network]()
 * [MNIST]()
 * [The problem about cars]()
 * [Sudoku solver]()
+
 [- HTML & CSS]()
 * [Portfolio site]()
 * [Site for MIREA]()
@@ -20,6 +22,7 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [HipHop site]()
 * [Amongus site]()
 * [New lamp site]()
+
 [- Structures, algorithms and problem solving]()
 * [Graphs in python]()
 * [Graphs in golang]()
