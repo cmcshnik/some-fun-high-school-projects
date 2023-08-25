@@ -7,7 +7,25 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects#hypnotoad)
 * [Clock](https://github.com/cmcshnik/some-fun-high-school-projects#clock)
 * [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
+* [Messenger with python server]()
 [- Neural networks and Z3](https://github.com/cmcshnik/some-fun-high-school-projects#Neural-networks-and-Z3)
+* [First neural network]()
+* [MNIST]()
+* [The problem about cars]()
+* [Sudoku solver]()
+[- HTML & CSS]()
+* [Portfolio site]()
+* [Site for MIREA]()
+* [Tech leaders site]()
+* [HipHop site]()
+* [Amongus site]()
+* [New lamp site]()
+[- Structures, algorithms and problem solving]()
+* [Graphs in python]()
+* [Graphs in golang]()
+* [Prolog]()
+* [Euclidean algorithm](https://github.com/cmcshnik/some-fun-high-school-projects#Euclidean-algorithm)
+* [Hash Table]()
 
 
 ## JavaScript section 
@@ -34,6 +52,7 @@ A visual demonstration of the work of an [algorithm](https://en.wikipedia.org/wi
 
 
 
+## Neural networks and Z3
 
 
 
