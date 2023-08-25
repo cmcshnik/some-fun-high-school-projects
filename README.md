@@ -1,6 +1,6 @@
 # Some fun high school projects
 
-In this repo, I uploaded several small and medium-sized projects that I did for school and for myself. Hopefully, you will find something interesting here.
+In this repo, I uploaded several small and medium-sized projects that I did for school and for myself. The quality of the code can be terrible and contain a bunch of workarounds, but at that time it wasn't so important to me, sorry. Hopefully, you will find something interesting here.
 
 [- JavaScript section](https://github.com/cmcshnik/some-fun-high-school-projects#javascript-section)
 * [Paint](https://github.com/cmcshnik/some-fun-high-school-projects#paint)
