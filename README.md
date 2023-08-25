@@ -5,7 +5,7 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 [- JavaScript section](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#javascript-section)
 * [Paint](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#paint)
 * [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#hypnotoad)
-* [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#marching-squares)
+* [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
 * [Clock](https://github.com/cmcshnik/some-fun-high-school-projects/blob/main/README.md#clock)
 
 ## JavaScript section 
