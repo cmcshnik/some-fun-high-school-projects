@@ -22,4 +22,4 @@ A hypnotoad with only one working hypnotic eye. The result of some experiments w
 Rendered using canvas 2D context and a pinch of math. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Clock/)
 
 ### Marching squares
-A visual demonstration of the work of an [algorithm](https://en.wikipedia.org/wiki/Marching_squares) popular in the field of computer graphics. Is a simplification of the [marching cubes](https://en.wikipedia.org/wiki/Marching_cubes) for the flat case. You can try "special mode", it's a little satisfying. 
+A visual demonstration of the work of an [algorithm](https://en.wikipedia.org/wiki/Marching_squares) popular in the field of computer graphics. Is a simplification of the [marching cubes](https://en.wikipedia.org/wiki/Marching_cubes) for the flat case. You can try "special mode", it's a little satisfying. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Marshing squares)
