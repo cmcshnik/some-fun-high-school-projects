@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Raleway:wght@300;600&family=Roboto&display=swap');
+    #cont{
+        width: 100%;
+        height: 85%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        border: 1px solid rgb(85, 83, 83);
+        border-radius: 15px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+    }
+    html, body {
+        scrollbar-color: rgb(32, 44, 51) rgb(85, 83, 83);     /* «цвет ползунка» «цвет полосы скроллбара» */
+        scrollbar-width: thin;  /* толщина */
+    }       
+    body{
+        background-image: url(whatsapp.png);
+        background-size: cover;
+    }
+        /* полоса прокрутки (скроллбар) */
+    ::-webkit-scrollbar {
+        width: 12px; /* ширина для вертикального скролла */
+        height: 8px; /* высота для горизонтального скролла */
+        background-color: rgb(85, 83, 83);
+        border-radius: 10px;
+        margin-left: 110%;
+    }
+
+    /* ползунок скроллбара */
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(65, 62, 62);
+        border-radius: 10px;
+    }
+    .message{
+        display: inline-block;
+        padding: 10px;
+        border-radius: 5px;
+        background-color: rgb(32, 44, 51);
+        max-width: 40%;
+        font-family: "Roboto";
+        color: white;
+        margin: 7px;
+        transition: all 0.3s;
+    }
+    .input__form{
+        box-sizing: border-box;
+        font-family: inherit;
+        background-color: rgb(42, 57, 66);
+        border-style: none;
+        border-radius: 0.25rem;
+        padding: 4px;
+        color: white;
+        text-decoration: none;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    input[type="text"] {
+        font-family: inherit; 
+        font-size: inherit; 
+        line-height: inherit; 
+        margin: 5px; 
+    }
+    .add__button{
+        width: 30px;
+        height: 30px;
+        display: block;
+        background-color: rgb(0, 92, 75);
+        margin-top: 4px;
+        border-radius: 50%;
+        background-image: url(strelka.png);
+        background-size: 20px;
+        background-position: 5px 7px;
+        background-repeat: no-repeat;
+        transform: rotate(270deg);
+        transition: all 0.5s;
+    }
+    .add__button:hover{
+        background-color: rgb(40, 100, 90);
+    }
+    .upload__button{
+        width: 50vw;
+        height: 4vh;
+        margin: 5px;
+        border-radius: 10px;
+        background-color: rgb(0, 92, 75);
+        display: flex;
+        justify-content: center;
+        transition: all 0.5s;
+        opacity: 0;
+    }
+    .upload__button:hover{
+        background-color: rgb(40, 100, 90);
+    }
+    .pic{
+        background-image: url(up.png);
+        background-size: cover;
+        width: 2vw;
+        height: 3vh;
+        transform: rotate(270deg);
+        margin: auto 0px;
+    }
+    .parent{
+        display: inline-block;
+        border-radius: 5px;
+        background-color: rgb(32, 44, 51);
+        max-width: 40%;
+        min-width: 5%;
+        font-family: "Roboto";
+        margin: 7px;
+    }
+    .text{
+        margin-top: 11px;
+        margin-right: 11px;
+        margin-left: 11px;
+        margin-bottom: 0px;
+        box-sizing: border-box;
+        color: white;
+    }
+    .time{
+        box-sizing: border-box;
+        font-size: 9px;
+        color: rgb(163, 159, 159);
+        margin-bottom: 2px;
+        margin-right: 6px;
+        margin-top: 3px;
+    }
+    .parent .time{
+        float: right;
+    }
+    .input__and__add{
+        margin-right: 10px;
+    }
+    .main__cont .input__and__add{
+        float: right;
+    }
+</style>
+<body>
+    <div style="width: 70vw; height: 90vh; margin: 0 auto; font-family: 'Roboto';" class="main__cont">
+        <div style="display: flex; justify-content: center;">
+            <div id="upload" class="upload__button">
+                <div class="pic"></div>
+                <div class="pic"></div>
+                <div class="pic"></div>
+            </div>
+        </div>
+        <div id="cont" class="cont">
+
+        </div>
+        <div style="display: flex; flex-wrap: wrap;" class="input__and__add">
+            <input id="input" type="text" size="30" class="input__form">
+            <div id="add" class="add__button"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
