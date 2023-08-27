@@ -15,12 +15,11 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Sudoku solver](https://github.com/cmcshnik/some-fun-high-school-projects#sudoku-solver)
 
 
-[- HTML & CSS]()
-* [Portfolio site]()
-* [Site for MIREA]()
-* [Tech leaders site]()
-* [HipHop site]()
-* [Amongus site]()
+[- HTML & CSS](https://github.com/cmcshnik/some-fun-high-school-projects#HTML-&-CSS)
+* [Portfolio site](https://github.com/cmcshnik/some-fun-high-school-projects#Portfolio-site)
+* [Site for MIREA](https://github.com/cmcshnik/some-fun-high-school-projects#Site-for-MIREA)
+* [Tech leaders site](https://github.com/cmcshnik/some-fun-high-school-projects#Tech-leaders-site)
+* [Amongus site](https://github.com/cmcshnik/some-fun-high-school-projects#Amongus-site)
 
 [- Structures, algorithms and problem solving]()
 * [Graphs in python]()
@@ -76,11 +75,20 @@ A program that solves Sudoku using python Z3. At the entrance, she needs to subm
 ![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/8b5d3d2f-e1e6-4808-a74d-5e50de2e1516)
 
 
+### Portfolio site
+A portfolio website for a programmer with interactive buttons. The design is the same as in the olim.p project. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Portfolio/)
 
-### Euclidean algorithm
-Two integers a >= 0 and b >= 0 are supplied to the input via a space character. It is also guaranteed that b > a.
-Print all prime numbers between a (inclusive) and b (exclusive) in ascending order.
 
+### Site for MIREA
+The website for the project, which was planned to be shown at the technological conference of the Russian university MIREA. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Site%20for%20MIREA/)
+
+
+### Tech leaders site
+Just experiments with a dark design style. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Tech%20leaders%20site/)
+
+
+### Amongus site
+Yeah, amongus site. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Amongus%20site/)
 
 
 
