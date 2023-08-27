@@ -22,10 +22,10 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Amongus site](https://github.com/cmcshnik/some-fun-high-school-projects#Amongus-site)
 
 [- Structures, algorithms and problem solving]()
-* [Hash Table]()
-* [Graphs in python]()
-* [Graphs in golang]()
-* [Prolog]()
+* [Hash Table](https://github.com/cmcshnik/some-fun-high-school-projects#Hash-Table)
+* [Graphs in python](https://github.com/cmcshnik/some-fun-high-school-projects#Graphs-in-python)
+* [Graphs in golang](https://github.com/cmcshnik/some-fun-high-school-projects#Graphs-in-golang)
+* [Prolog](https://github.com/cmcshnik/some-fun-high-school-projects#Prolog)
 
 
 
@@ -93,5 +93,16 @@ Just experiments with a dark design style. [Link](https://cmcshnik.github.io/som
 Yeah, amongus site. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Amongus%20site/)
 
 
+## Structures, algorithms and problem solving
 
+### Hash Table
+A python hash table that handles collisions linearly.
 
+### Graphs in python
+Some graph alghoritms in python. The task condition is located directly in the code.
+
+### Graphs in Golang
+And some graph alghoritms in golang.
+
+### Prolog
+A little problem solving on the prolog. 
