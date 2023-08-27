@@ -15,17 +15,18 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Sudoku solver](https://github.com/cmcshnik/some-fun-high-school-projects#sudoku-solver)
 
 
-[- HTML & CSS](https://github.com/cmcshnik/some-fun-high-school-projects#HTML-&-CSS)
+[- HTML & CSS](https://github.com/cmcshnik/some-fun-high-school-projects#html--css)
 * [Portfolio site](https://github.com/cmcshnik/some-fun-high-school-projects#Portfolio-site)
 * [Site for MIREA](https://github.com/cmcshnik/some-fun-high-school-projects#Site-for-MIREA)
 * [Tech leaders site](https://github.com/cmcshnik/some-fun-high-school-projects#Tech-leaders-site)
 * [Amongus site](https://github.com/cmcshnik/some-fun-high-school-projects#Amongus-site)
 
 [- Structures, algorithms and problem solving]()
+* [Hash Table]()
 * [Graphs in python]()
 * [Graphs in golang]()
 * [Prolog]()
-* [Hash Table]()
+
 
 
 ## JavaScript section 
