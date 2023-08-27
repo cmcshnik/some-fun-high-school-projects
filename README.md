@@ -12,8 +12,8 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 [- Neural networks and Z3](https://github.com/cmcshnik/some-fun-high-school-projects#Neural-networks-and-Z3)
 * [First neural network]()
 * [MNIST]()
-* [The problem about cars]()
 * [Sudoku solver]()
+
 
 [- HTML & CSS]()
 * [Portfolio site]()
@@ -58,10 +58,22 @@ Done using python http.server and Sqlite3 on the server side, and using js fetch
 
 ## Neural networks and Z3
 
+### First neural network
+It can determine the gender of a noun in the Russian language. It is written using two features of the Torch library: working with tensors and automatic calculation of derivatives. For the neural network to work, you can either train it yourself using the file nn.py and the data set russian_nouns.txt, or use saved_model.txt and immediately launch start.py.
+
+![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/88fd6b2b-87fb-42cd-9e69-56eb69dad670)
 
 
+### MNIST
+A neural network that can detect handwritten numbers. It is written with the help of already more Torch functionality than the previous one. There is no interactive mode, but there is the possibility of learning from scratch. For the test, you need to run the file start.py.
+
+![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/21b2b399-e257-4c66-976c-b1df71376a80)
 
 
+### Sudoku solver
+A program that solves Sudoku using python Z3. At the entrance, she needs to submit 81 numbers, where each consecutive 9 numbers is another row of the entire square. In order to try Sudoku with a photo, you need to enter 000000010400000000020000000000050407008000300001090000300400200050100000000806000
+
+![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/8b5d3d2f-e1e6-4808-a74d-5e50de2e1516)
 
 
 
