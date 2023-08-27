@@ -10,9 +10,9 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Messenger with python server](https://github.com/cmcshnik/some-fun-high-school-projects#Messenger-with-python-server)
 
 [- Neural networks and Z3](https://github.com/cmcshnik/some-fun-high-school-projects#Neural-networks-and-Z3)
-* [First neural network]()
-* [MNIST]()
-* [Sudoku solver]()
+* [First neural network](https://github.com/cmcshnik/some-fun-high-school-projects#first-neural-network)
+* [MNIST](https://github.com/cmcshnik/some-fun-high-school-projects#mnist)
+* [Sudoku solver](https://github.com/cmcshnik/some-fun-high-school-projects#sudoku-solver)
 
 
 [- HTML & CSS]()
