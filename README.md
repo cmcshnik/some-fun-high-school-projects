@@ -3,10 +3,10 @@
 In this repo, I uploaded several small and medium-sized projects that I did for school and for myself. The quality of the code can be terrible and contain a bunch of workarounds, but at that time it wasn't so important to me, sorry. Hopefully, you will find something interesting here.
 
 [- JavaScript section](https://github.com/cmcshnik/some-fun-high-school-projects#javascript-section)
+* [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
 * [Paint](https://github.com/cmcshnik/some-fun-high-school-projects#paint)
 * [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects#hypnotoad)
 * [Clock](https://github.com/cmcshnik/some-fun-high-school-projects#clock)
-* [Marching squares](https://github.com/cmcshnik/some-fun-high-school-projects#marching-squares)
 * [Messenger with python server]()
 
 [- Neural networks and Z3](https://github.com/cmcshnik/some-fun-high-school-projects#Neural-networks-and-Z3)
@@ -33,6 +33,12 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 
 ## JavaScript section 
 
+### Marching squares
+A visual demonstration of the work of an [algorithm](https://en.wikipedia.org/wiki/Marching_squares) popular in the field of computer graphics. Is a simplification of the [marching cubes](https://en.wikipedia.org/wiki/Marching_cubes) for the flat case. You can try "special mode", it's a little satisfying. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Marching%20squares/)
+
+![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/5abb8034-918f-4a1b-9ca8-24ec5cb12225)
+
+
 ### Paint
 A simple drawing site that allows you to choose colors from a set of RGB, draw lines and squares, change the size of the brush. Made with JS canvas and onmouse events. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Paint/)
 
@@ -47,10 +53,6 @@ A hypnotoad with only one working hypnotic eye. The result of some experiments w
 Rendered using canvas 2D context and a pinch of math. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Clock/)
 
 
-### Marching squares
-A visual demonstration of the work of an [algorithm](https://en.wikipedia.org/wiki/Marching_squares) popular in the field of computer graphics. Is a simplification of the [marching cubes](https://en.wikipedia.org/wiki/Marching_cubes) for the flat case. You can try "special mode", it's a little satisfying. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Marching%20squares/)
-
-![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/5abb8034-918f-4a1b-9ca8-24ec5cb12225)
 
 
 
