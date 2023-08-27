@@ -7,7 +7,7 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Paint](https://github.com/cmcshnik/some-fun-high-school-projects#paint)
 * [Hypnotoad](https://github.com/cmcshnik/some-fun-high-school-projects#hypnotoad)
 * [Clock](https://github.com/cmcshnik/some-fun-high-school-projects#clock)
-* [Messenger with python server]()
+* [Messenger with python server](https://github.com/cmcshnik/some-fun-high-school-projects#Messenger-with-python-server)
 
 [- Neural networks and Z3](https://github.com/cmcshnik/some-fun-high-school-projects#Neural-networks-and-Z3)
 * [First neural network]()
@@ -21,13 +21,11 @@ In this repo, I uploaded several small and medium-sized projects that I did for 
 * [Tech leaders site]()
 * [HipHop site]()
 * [Amongus site]()
-* [New lamp site]()
 
 [- Structures, algorithms and problem solving]()
 * [Graphs in python]()
 * [Graphs in golang]()
 * [Prolog]()
-* [Euclidean algorithm](https://github.com/cmcshnik/some-fun-high-school-projects#Euclidean-algorithm)
 * [Hash Table]()
 
 
@@ -53,7 +51,8 @@ A hypnotoad with only one working hypnotic eye. The result of some experiments w
 Rendered using canvas 2D context and a pinch of math. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Clock/)
 
 
-
+### Messenger with python server
+Done using python http.server and Sqlite3 on the server side, and using js fetch on the client side.
 
 
 
