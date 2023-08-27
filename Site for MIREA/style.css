@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700;900&display=swap');
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(6, 17, 33);
+}
+.main__container{
+    width: 900px;
+    margin: 0 auto;
+}
+.white__block__for__text{
+    width: 700px;
+    height: 150px;
+    margin: 15px 0;
+    background-color:azure;
+    border-radius: 30px;
+    border-style: solid; 
+    border-color: rgb(18, 157, 255); 
+    border-width: 7px;
+}
+.white__block__for__text>h4{
+    font-family: 'RaleWay';
+    font-weight: 700;
+    font-size: 25px; 
+    text-align: center;
+    padding-top: 6px;
+
+}
+.white__block__for__text>p{
+    font-family: 'RaleWay';
+    font-weight: 600;
+    font-size: 20px; 
+    text-align: justify;
+    color: black;
+    padding: 11px;
+}
+h1{
+    font-family: 'RaleWay';
+    font-weight: 700;
+    font-size: 60px; 
+    color: #edf0f1;
+    letter-spacing: 4px;
+    z-index: 3;
+}
+h2{
+    font-family: 'RaleWay';
+    font-weight: 700;
+    font-size: 40px; 
+    color: #edf0f1;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.TH{
+    height: 550px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    background-color: rgb(6, 17, 33);
+    display: flex;
+    padding-top: 80px;
+}
+.TH2{
+    height:160px;
+    width: 610px;
+    border-style: outset;
+    border-color: rgb(18, 157, 255);
+    border-width: 10px;
+    margin: 0 auto;
+    padding-top: 3px;
+    box-shadow: 0 0 15px black;
+}
+.TH3{
+    height:360px;
+    width: 810px;
+    border-style: dashed;
+    border-color: rgb(18, 157, 255);
+    border-width: 10px;
+    margin: 0 auto;
+    padding-top: 90px;
+
+}
+p{
+    font-family: 'RaleWay';
+    font-weight: 600;
+    font-size: 20px; 
+    color: #edf0f1;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.p__for__footer{
+    font-family: 'RaleWay';
+    font-weight: 300;
+    font-size: 15px; 
+    color: #edf0f1;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* .Zcel{
+    width: 900px;
+    height: 100px;
+    border-style: solid;
+    border-width: 10px;
+
+    border-color: rgb(61, 36, 159);
+    padding: 8px;
+    border-radius: 10px;
+} */
+.aboba{
+    transition: 0.2s;
+    text-align: center;
+}
+.aboba:hover {
+    transform: scale(1.08);
+}
+.first_pic{
+    border-radius: 3%;
+    height: 200px;
+    width: 300px;
+    max-width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 0 15px black;
+}
+hr {
+    border: none; 
+    margin: 15px auto;
+    color: rgb(18, 157, 255);
+    background-color: rgb(18, 157, 255); 
+    height: 2px; 
+    width: 110px;
+}
+li, a, button{
+    font-family: 'RaleWay';
+    font-weight: 600;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{ 
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: right;
+    gap: 18px;
+    align-items: center;
+    padding: 30px 10%;
+    height: 35px;
+    background-color: rgb(6, 17, 33);
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links>li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links>li>a{
+    transition: all 0.3s ease 0s;
+}
+.nav__links>li>a:hover{
+    /* color: #0088a9; */
+    color: rgb(18, 157, 255);
+}
+button {
+    padding: 9px 25px;
+    /* background-color: rgba(0, 136, 169, 1); */
+    background-color: rgba(18, 157, 255, 1);
+    border: None;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(18, 157, 255, 0.8);
+}
+.nice__text:hover{
+    font-size: 25px;
+    transition: all 0.1s ease 0s;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(11, 11, 12);
+    text-align: center;
+    padding-top: 2px;
+}
+
+.conteiner__for__logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}

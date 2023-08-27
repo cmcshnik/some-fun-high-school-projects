@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Montserrat+Alternates:wght@300&display=swap');
+
+
+.Black{
+    color: black;
+}
+
+.Sun{
+   color: black;
+}
+.SunOpacity{
+    opacity: .8;
+}
+
+
+.Monospace{
+    font-family: monospace;
+}
+.Bold{
+    font-weight: bold;
+}
+.FontSizeLarge{
+    font-size: large;
+}
+.UnderLine{
+    text-decoration:underline;
+}
+.Line-Through{
+    text-decoration:line-through;
+}
+.OverLine{
+    text-decoration:overline;
+}
+.Center{
+    text-align: center;
+}
+.Small{
+    font-size: 15;
+}
+
+.UnicalPar{
+    padding: 10px;
+    border-style: dashed;
+    border-radius: 1px;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(185, 182, 182);
+    font-family: 'Fira Sans';
+    font-weight: bold;
+}
+.Margin{
+    margin: 15%;
+}
+.MarginBig{
+    margin: 32%;
+}
+
+.RaleWay{
+    font-family: RaleWay;
+}
+.BigText{
+    font-size: 49px;
+}
+
+h1{
+    Text-align: center;
+    font-size: 42px;
+    font-family: RaleWay;
+}
+h2{
+    Text-align: center;
+    font-size: 33px;
+    font-family: RaleWay;
+}
+p{
+    Text-align: justify;
+    font-size: x-large;
+    font-family: RaleWay;
+}
+ul{
+    Text-align: justify;
+    font-size: x-large;
+    font-family: RaleWay;
+}
+article{
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(218, 216, 216);
+    padding: 60px;
+    border-radius: 45px;
+    border-width: xx-large;
+    border-color: black;
+    border-style: groove;
+}
+nav {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(218, 216, 216);
+    padding: 25px 60px 25px 60px;
+    border-radius: 45px;
+    border-width: xx-large;
+    border-color: black;
+    border-style: groove; 
+}
+footer{
+    font-size: 21px;
+    font-family: RaleWay;
+}
+a {
+    color: rgb(219, 134, 0);
+   }
+   a:visited {
+    color:  rgb(219, 134, 0);
+   }
+
+
+
+hr {
+    border: none; 
+    color: black; 
+    background-color: black; 
+    height: 2px; 
+    width: 80px;
+}
+
+html {
+    background-image: url(u6jC9vq5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+

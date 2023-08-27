@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="python_grid.css"> -->
+    <link rel="icon" href="https://fontawesome.com/">
+    <title>Document</title>
+</head>
+<style>
+    @media (max-width: 800px){
+        .menu{
+            flex-direction: column;
+            gap: 0px;
+            height: 230px;
+            position: relative;
+        }
+        .lin1{
+            display: none;
+        }
+        .top__prog{
+            width: 370px;
+            margin: 15px auto;
+        }
+        .tmp__block{
+            height: 250px;
+        }
+        .stek__main{
+            width: 100%;
+            margin: 30px auto;
+            grid-template-areas: "a a"
+                                "b b"
+                                "c c" 
+                                "v v";
+        }
+        .python__header{
+            top: 83px;
+            left: 40px;
+            margin: 0;
+        }
+        .python__main{
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .go__main{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .go__text{
+            font-size: 15px; 
+            width: 60%;
+            margin: 0 auto;
+        }
+        .go__header{
+            top: 43px;
+            left: 40px;
+        }
+
+        .web__main{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .web_hr{
+            display: none;
+        }
+        .html__text{left:40px;}
+        .css__text{left:40px;}
+        .web__main:hover .css__text{
+            left: 90px;
+        }
+        .css_i{
+            left: 5px;
+        }
+
+        .js__main{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .js_header{
+            left: 10px;
+        }
+
+        .js__main:hover .js_header{
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+        @media (max-width: 520px){
+            .kirill{ font-size: 30px;}
+        }
+    }
+</style>
+<body>
+    <main>
+            <header>
+                <div class="tmp__block">
+                    <div style="padding-top: 20px;">
+                        <h1 class="kirill">Борисов Кирилл</h1>
+                    </div>
+                    <h2 class="top__prog">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eligendi vitae rem reiciendis tempora molestias, mollitia</h2>
+
+                </div>
+            </header>
+            <div class="menu">
+                <a href="#">
+                <div class="menu__item">
+                        ВКонтакте
+                </div>
+                </a>
+
+                <hr class="lin1">
+
+                <a href="#">
+                <div class="menu__item">
+                    
+                    WhatsApp
+                    
+                </div>
+                </a>
+                <hr class="lin1">
+                <a href="#">
+                
+                <div class="menu__item">
+                    
+                    Telegram
+                    
+                </div>
+                </a>
+                <hr class="lin1">
+                <a href="#">
+                
+                <div class="menu__item">
+                    
+                    Facebook
+                    
+                </div>
+                </a>
+            </div>
+            
+
+
+            <article>
+                <div class="stek__main">
+                    <a href="./py/python.html" style="grid-area: a;">
+                        <div id="py" class="python__main">
+                            <div class="tmp1">
+                                <div class="pl1"></div>
+                                <div class="pl2"></div>
+                                <div class="pl3"></div>
+                            </div>
+                            <div id="py_text" class="text py__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum commodi similique impedit illum cupiditate corporis recusandae quis totam? Autem atque sunt iusto ea nemo quam, nobis fuga rem similique assumenda?</div>
+
+                            <div class="tmp1">
+                                <div class="v1"></div>
+                                <div class="v2"></div>
+                                <div class="v3"></div>
+                            </div>
+                            <h1 class="python__header">Python</h1>
+                            <img class="icon py_i" src="icons/python22.png">
+                        </div>
+                    </a>
+
+
+                    <a href="./go/go.html" style="grid-area: b;">
+                        <div id="go" class="go__main">
+                            <h1 class="go__header">GO</h1>
+                            <div class="tmp2">
+                                <div class="go_hr1"></div>
+                                <div class="go_hr2"></div>
+                                <div class="go_hr3"></div>
+                            </div>
+                            <div id="go_text" class="go__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, sunt nesciunt non, soluta iusto beatae unde deleniti enim illum qui adipisci expedita vero? Facere porro</div>
+                            <img class="icon go_i" src="icons/go.png">
+                        </div>
+                    </a>
+
+
+
+                    <a href="./web/web.html" style="grid-area: c;">
+                        <div class="web__main">
+                            <h2 class="html__text">HTML</h2>
+                            <h2 class="css__text">CSS</h2>
+                            <div class="web_hr"></div>
+                            <img class="icon html_i" src="icons/html.png">
+
+                            <img class="icon css_i" src="icons/csss.png  ">
+                        </div>
+                    </a>
+
+
+                    <a href="./js/js.html" style="grid-area: v;">
+                        <div id="js" class="js__main">
+                            <div class="js__cont">
+                                <div style="position: relative;box-sizing: border-box;">
+                                    <h1 class="js_header">JavaScript</h1>
+                                    <div id="js_text" class="js_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta error quaerat earum, harum in ex eum laudantium recusandae consectetur eligendi sed, repellendus laborum eaque magnam aperiam ullam beatae deleniti?</div>
+
+                                    
+
+                                    <div class="cont">
+                                        
+                                        <img class="icon js_i" style="width: 60px;" src="icons/node_icon_196185.png">
+                                        <img class="icon js_i" src="icons/js_black.png">
+                                        <img class="icon js_i" src="icons/react_icon_135264.png">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+            </article>
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>
