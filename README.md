@@ -78,7 +78,7 @@ A program that solves Sudoku using python Z3. At the entrance, she needs to subm
 
 
 ### Portfolio site
-A portfolio website for a programmer with interactive buttons. The design is the same as in the olim.p project. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Portfolio/)
+A portfolio website for a programmer with interactive buttons. The design is the same as in the olim.p project. [Link](https://cmcshnik.github.io/some-fun-high-school-projects/Portfolio%20site/)
 
 
 ### Site for MIREA
