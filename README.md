@@ -69,6 +69,8 @@ A neural network that can detect handwritten numbers. It is written with the hel
 ![image](https://github.com/cmcshnik/some-fun-high-school-projects/assets/95929455/21b2b399-e257-4c66-976c-b1df71376a80)
 
 
+## HTML & CSS
+
 ### Sudoku solver
 A program that solves Sudoku using python Z3. At the entrance, she needs to submit 81 numbers, where each consecutive 9 numbers is another row of the entire square. In order to try Sudoku with a photo, you need to enter 000000010400000000020000000000050407008000300001090000300400200050100000000806000
 
