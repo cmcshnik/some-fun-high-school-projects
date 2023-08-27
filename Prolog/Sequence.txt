@@ -1,0 +1,45 @@
+/*
+*
+* The input is a sequence of integers separated by whitespace characters (not necessarily spaces!).
+* You need to find the largest of them divisible by 7, but not divisible by 4, and print it.
+* If there are none, you need to print NO.
+*
+*/
+
+
+:- prompt(_, '').
+
+sum([], Acc, Acc).
+sum([X | Xs], Acc, Y) :- NewAcc is X + Acc, sum(Xs, NewAcc, Y).
+sum(Xs, Y) :- sum(Xs, 0, Y).
+
+isDivisible(Number, Divisor):-
+  Number mod Divisor =:= 0.
+
+isDivisible2(Number, Divisor):-
+  Number mod Divisor > 0.
+
+my_max([], R, R).
+my_max([X | Xs], WK, R) :- X >  WK, my_max(Xs, X, R).
+my_max([X | Xs], WK, R) :- X =< WK, my_max(Xs, WK, R).
+my_max([X | Xs], R) :- my_max(Xs, X, R).
+
+list_length([], 0).
+list_length([_ | Xs], L) :- list_length(Xs,N), L is N+1.
+
+answer([], "NO").
+answer(Numbers, Answer) :- Numbers = [_ | _], my_max(Numbers, Answer).
+
+spaces(" \t\n").
+
+read_words(Words) :-
+  read_string(current_input, _, Input),
+  spaces(S),
+  split_string(Input, S, S, Words).
+
+:-
+  read_words(Words),
+  findall(N, (member(Word, Words), number_string(N, Word), isDivisible(N, 7), isDivisible2(N, 4)), Numbers),
+  answer(Numbers,  Answer),
+  write(Answer), nl,
+  halt.

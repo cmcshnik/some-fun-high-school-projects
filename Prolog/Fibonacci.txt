@@ -1,0 +1,28 @@
+fib_seq(0,[0]).
+fib_seq(1,[0,1]).
+fib_seq(N,Seq) :-
+   N > 1,
+   fib_seq_(N,SeqR,1,[1,0]),
+   reverse(SeqR,Seq).
+
+fib_seq_(N,Seq,N,Seq).
+fib_seq_(N,Seq,N0,[B,A|Fs]) :-
+   N > N0,
+   N1 is N0+1,
+   C is A+B,
+   fib_seq_(N,Seq,N1,[C,B,A|Fs]).
+
+spaces(" \t\n").
+read_words(Words) :-
+    read_string(current_input, _, Input),
+    spaces(S),
+    split_string(Input, S, S, Words).
+first([X1], X) :- X is X1 + 1.
+
+:-
+    read_words(Words),
+    findall(N, (member(Word, Words), number_string(N, Word)), Numbers),
+    first(Numbers, X),
+    fib_seq(X, Arr),
+    last(Arr, Answer), writeln(Answer),
+    halt.

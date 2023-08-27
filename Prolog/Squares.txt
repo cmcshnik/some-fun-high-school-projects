@@ -1,0 +1,73 @@
+/*
+*
+* The input is positive integers N and K.
+* Print with asterisks K full squares of size NxN, separated by columns with a width of 1 space.
+*
+*/
+
+
+:- prompt(_, '').
+
+spaces(" \t\n").
+read_words(Words) :-
+    read_string(current_input, _, Input),
+    spaces(S),
+    split_string(Input, S, S, Words).
+
+concatenate(StringList, StringResult) :-
+    maplist(atom_chars, StringList, Lists),
+    append(Lists, List),
+    atom_chars(StringResult, List).
+
+concatenate_with_spaces(StringList, StringResult) :-
+    findall(N, (member(String, StringList), concatenate([String, ' '], N)), StringResultPrev),
+    concatenate(StringResultPrev, StringResult).
+
+create_line_of_N_symbols(0, _, '').
+create_line_of_N_symbols(N, Symbol, StringResult) :-
+    A is N - 1,
+    create_line_of_N_symbols(A, Symbol, StringResult2),
+    concatenate([Symbol, StringResult2], StringResult).
+
+repeat_line_N_times(0, _, '').
+repeat_line_N_times(N, S, StringResult) :-
+    A is N - 1,
+    repeat_line_N_times(A, S, StringResult2),
+    concatenate([S, ' ', StringResult2], StringResult).
+
+create_specific_line(N, '') :- N < 0.
+create_specific_line(N, StringResult) :-
+    create_line_of_N_symbols(N, ' ', Spaces2),
+    concatenate(['*', Spaces2, '*'], StringResult).
+
+first([X, _], X).
+second([_, Y], Y).
+
+printing_body(S) :-
+    write(S), nl.
+
+printing_answer(1, K, _, _, _) :-
+    repeat_line_N_times(K, '*', Answer),
+    write(Answer).
+printing_answer(_, _, A, Body, TopAndBottom) :-
+    write(TopAndBottom), nl,
+    foreach(between(1, A, _), printing_body(Body)),
+    write(TopAndBottom), nl.
+
+:-
+    read_words(Words),
+    first(Words, N2),
+    second(Words, K2),
+    number_string(N, N2),
+    number_string(K, K2),
+    A is N - 2,
+
+    create_line_of_N_symbols(N, '*', SolidLine),
+    create_specific_line(A, EmptyLine),
+
+    repeat_line_N_times(K, SolidLine, TopAndBottom),
+    repeat_line_N_times(K, EmptyLine, Body),
+
+    printing_answer(N, K, A, Body, TopAndBottom),
+    halt.
+
